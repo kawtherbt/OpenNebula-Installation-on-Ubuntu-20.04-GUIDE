@@ -24,4 +24,4 @@ sudo ufw allow proto tcp from any to any port 9869
 sudo systemctl start opennebula opennebula-sunstone
 sudo systemctl enable opennebula opennebula-sunstone
 
-sudo su - oneadmin -c "oneuser show"   
+sudo su - oneadmin -c "oneuser show"    
